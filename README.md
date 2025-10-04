@@ -46,33 +46,33 @@ Kita bisa:
 
 ### ⚙️ Penerapa JDBC 
 
-**1. 📦 Package
+**1. 📦 Package**
 
 <img width="700" height="456" alt="{865B317F-3B12-4092-8A99-71CE19CB0B18}" src="https://github.com/user-attachments/assets/be6a878b-e890-4112-a156-fa75b112297a" />
 
 Penerapan package JDBC terlihat pada penggunaan import java.sql.* di class GameService dan DatabaseViewer. Import ini memungkinkan akses ke class penting JDBC seperti Connection, DriverManager, Statement, dan ResultSet untuk menjalankan query database.
 
-**2. DriverManager & Connection
+**2. DriverManager & Connection**
 
 <img width="715" height="401" alt="{AAD7EB3B-FBA0-4936-9306-482CB4AD4044}" src="https://github.com/user-attachments/assets/0ff38898-158c-4f00-a232-8d3acaa5bbf7" />
 
 📌 DriverManager digunakan untuk membuka koneksi ke database. Objek Connection menjadi jembatan utama antara Java dengan MySQL.
 
 
-**3. Statement
+**3. Statement**
 
 <img width="793" height="430" alt="{EAD75A32-E6DC-486D-AD63-BE08EB51C26A}" src="https://github.com/user-attachments/assets/69953ea3-42d1-4892-92e2-3eb67c734707" />
 
 📌 Statement dipakai untuk menjalankan query SQL statis (misalnya SELECT * FROM pc_game).
 
 
-**5. ResultSet
+**4. ResultSet**
 
 <img width="772" height="403" alt="{C752F498-C07E-495D-B2FA-BEE22EEB8288}" src="https://github.com/user-attachments/assets/8d0d08a2-09c7-4139-9ca2-2aa157cb5655" />
 
 📌 ResultSet menyimpan hasil query SELECT dan membaca data baris demi baris.
 
-**6. Closing Connection**
+**5. Closing Connection**
 
 <img width="780" height="445" alt="{A9CC420E-8E2C-4D1A-A8AE-D0F04E014617}" src="https://github.com/user-attachments/assets/11b9ea51-7430-4ba3-a69f-2279f2fd7533" />
 
