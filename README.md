@@ -121,6 +121,14 @@ Dengan begitu, data lama digantikan dengan data baru dari object Java.
 
 ===========================================================================
 
+### Perubahan di Main.java
+
+<img width="700" height="408" alt="{2147C731-78F2-49FA-B828-EB895FCB0968}" src="https://github.com/user-attachments/assets/aded5624-9bea-4397-bc52-4816dc19256a" />
+
+Perubahan di case 2 adalah menambahkan pilihan sub-menu agar user bisa menampilkan daftar PC Game atau Mobile Game langsung dari database menggunakan JDBC/ORM.
+
+===========================================================================
+
 ### Struktur Class Game
 
 **1. Deklarasi Properties**
@@ -393,6 +401,19 @@ Method tambah memiliki dua versi dengan parameter berbeda. Pemanggilan dapat men
 ===========================================================================
 
 ### Output
+
+**Output dari Lihat Daftar Game dari database daftar game tabel PC Game**
+
+<img width="435" height="249" alt="{BCDB182C-56BA-447E-831C-2DBF240652CE}" src="https://github.com/user-attachments/assets/84e8f1ec-1d39-4af6-9984-89927d3343cd" />
+
+Pada bagian PC Game, program akan menampilkan list daftar game pc yang telah dimasukkan ke database sebelumnya. 
+
+
+**Output dari Lihat Daftar Game dari database daftar game tabel Mobile Game**
+
+<img width="290" height="198" alt="{D698D308-2E63-4E25-A059-67824E22D128}" src="https://github.com/user-attachments/assets/2210f44d-112e-436d-b6f6-a5b42eb51b94" />
+
+Pada bagian Mobile Game, terjadi hal yang serupa dengan bagian PC Game. disini ada beberapa game mobile yang telah dimasukkan ke database.
 
 **1. Menampilkan pilihan dari program** 
 
